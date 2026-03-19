@@ -1,0 +1,48 @@
+#MR-logo {
+  width: 75px;
+}
+#email {
+  color: rgb(0, 126, 243);
+}
+#havola {
+  text-decoration: none;
+  color: rgb(44, 102, 238);
+
+}
+#contact {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+#ism {
+  font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#github {
+font-family: Arial, Helvetica, sans-serif;
+
+}
+#email1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: #65ff89;
+  border-radius: 20px;
+  width: 500px;
+  padding: 20px; /* Ichidagi narsalar yopishib qolmasligi uchun */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Chiroyli ko'rinish uchun */
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Gorizontaliga (chap-o'ng) o'rtaga olish */
+  align-items: center;     /* Vertikaliga (tepa-past) o'rtaga olish */
+  min-height: 100vh;       /* Ekranning to'liq balandligini egallash */
+  background-color: #f0f0f0; /* Fonni ajratish uchun (ixtiyoriy) */
+}
